@@ -251,6 +251,11 @@ hr {
     border: rgb(216, 216, 216) solid 1px;
 }
 
+footer {
+    text-align: center;
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+}
 
 @media screen and (max-width:768px) {
     .md {

@@ -267,6 +267,9 @@ export const HOME = () => {
         </div>
 
         <footer>
+        <p>
+          This is a project built using react.js
+        </p>
 
         </footer>
 
