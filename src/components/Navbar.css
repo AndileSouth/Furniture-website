@@ -1,0 +1,143 @@
+.Navbar {
+    margin: 0 20px;
+    background-color: var(--Main-background-color);
+    color: var(--Main-text-color);
+}
+
+.Navbar ul {
+    gap: 30px;
+}
+.navbar-contents  ul {
+    gap: 20px;
+}
+
+.navbar-contents {
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.navbar-contents ul li{
+    align-items: center;
+    gap: 5px;
+}
+
+.searchBar {
+    height: 30px;
+    border: solid rgb(182, 182, 182) 1px;
+    align-items: center;
+}
+
+.searchBar input {
+    border: none;
+    margin: 0 5px;
+    outline: none;
+    width: 20vw;
+}
+
+.searchBtn {
+    margin: 0 5px;
+}
+
+.lower-searchBar {
+    display: none;
+    height: 40px;
+    border: solid rgb(216, 216, 216) 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-searchBar input {
+    border: none;
+    margin: 0 5px;
+    outline: none;
+    width: 100%;
+    background-color: var(--Main-background-color);
+}
+
+.lower-searchBar-searchBtn {
+    margin: 0 10px;
+}
+
+
+.menuBtn {
+    display: none;
+}
+
+.account, .cart {
+    height: 30px;
+    padding: 0 15px;
+    border: rgb(194, 194, 194) 1px solid;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    .lower-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .lower-nav {
+        display: none;
+    }
+
+    .section1 {
+        gap: 20px;
+    }
+    
+    .menuBtn {
+        display: inline;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .lower-nav {
+        display: none;
+    }
+
+    .account, .cart {
+        border: none;
+        height: auto;
+        padding: 0;
+    }
+
+    .navbar-contents  ul {
+        gap: 20px;
+    }
+
+    .navbar-contents ul li{
+        flex-direction: column;
+        justify-content: center;
+    }
+   .navbar-contents ul svg{
+        font-size: 25px;
+    }
+    .navbar-contents ul p {
+        display: none;
+    }
+
+    .menuBtn {
+        display: inline;
+        font-size: 25px;
+    }
+    .searchBar {
+        display: none;
+    }
+
+    .lower-searchBar {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Navbar {
+        margin: 0 5px;
+    }
+    .navbar-contents h1 {
+        font-size: large;
+    }
+}
