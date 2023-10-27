@@ -13,15 +13,15 @@ export const HOME = () => {
   return (
     <div className='Home'>
         <div className="hero row">
-
+            
             <div className="promo row">
-            <div className='col'>save up to 50%</div>
+            <div className='col'><Link to='./shop'>save up to 50%</Link> </div>
             </div>
             <div className="img-container">
-                <img src={image1} alt="" />
+            <Link to='./shop'><img src={image1} alt="" /></Link>
                 <Link to='./shop'><button className='shopBtn cursor'>Shop</button></Link>
             </div>
-            
+           
         </div>
 
         <div className="basic-products row">

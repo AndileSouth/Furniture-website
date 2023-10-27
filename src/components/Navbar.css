@@ -2,6 +2,7 @@
     padding: 0 20px;
     background-color: var(--Main-background-color);
     color: var(--Main-text-color);
+    padding-bottom: 10px;
 }
 
 .Navbar ul {

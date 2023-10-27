@@ -1,7 +1,8 @@
 .Shop {
     margin: 0 10px;
-    margin-top: 20px;
+    margin-top: 120px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .Shop-content {
@@ -33,4 +34,21 @@
     font-weight: var(--bold);
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex: 1;
+        gap: 5px;
+    }
+
+    .Shop {
+        flex-direction: column;
+    }
+    
+    .settings1 {
+        display: none;
+    }
 }

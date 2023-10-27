@@ -3,6 +3,7 @@ import { ShopContext } from "../context/ShopContext";
 import { PRODUCTS } from "../components/Products";
 import { CartItem } from "./cart-item";
 import './Cart.css'
+import { Link } from 'react-router-dom';
 
 
 export const CART = () => {
@@ -27,7 +28,10 @@ export const CART = () => {
           <p>Subtotal: <b>${totalAmount}</b></p>
 
         <div className="checkout row">
-          <div className="continue">Continue Shopping</div>
+          <div className="continue">
+            <Link to='../shop' >
+              Continue Shopping
+            </Link> </div>
           <div className="checkout-btn">Checkout</div>
         </div>
 

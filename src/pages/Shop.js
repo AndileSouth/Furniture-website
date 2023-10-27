@@ -9,8 +9,8 @@ export const SHOP = () => {
         <h2>Shop</h2>
         <div className='Shop-content row'>
 
-        <div className='settings col'>
-            settings
+        <div className='settings col settings1'>
+            Filter
         </div>
 
         <div className="product-container">
