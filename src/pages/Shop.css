@@ -1,0 +1,36 @@
+.Shop {
+    margin: 0 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Shop-content {
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.settings {
+    width: 20vw;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex: 1;
+    gap: 5px;
+}
+
+.Product {
+    flex: 1;
+    background-color: var(--secondary-background-color);
+    padding-bottom: 10px;
+}
+
+.Shop .product-container button {
+    background-color: var(--Main-text-color);
+    color: var(--Main-background-color);
+    font-weight: var(--bold);
+    padding: 5px 10px;
+    border-radius: 10px;
+}

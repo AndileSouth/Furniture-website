@@ -1,5 +1,5 @@
 .Navbar {
-    margin: 0 20px;
+    padding: 0 20px;
     background-color: var(--Main-background-color);
     color: var(--Main-text-color);
 }
@@ -33,6 +33,7 @@
     margin: 0 5px;
     outline: none;
     width: 20vw;
+    background-color: var(--Main-background-color);
 }
 
 .searchBtn {
@@ -64,13 +65,16 @@
     display: none;
 }
 
-.account, .cart {
+.account, .cartBtn {
     height: 30px;
     padding: 0 15px;
-    border: rgb(194, 194, 194) 1px solid;
+   
 }
 
-
+.section3 a {
+    gap: 5px;
+    align-items: center;
+}
 
 
 @media screen and (min-width:992px) {
@@ -92,14 +96,26 @@
         display: inline;
         font-size: 25px;
     }
+
+    .searchBar {
+        display: none;
+    }
+
+
+    .lower-searchBar {
+        display: flex;
+    }
+
 }
+
+
 
 @media screen and (max-width:768px) {
     .lower-nav {
         display: none;
     }
 
-    .account, .cart {
+    .account, .cartBtn {
         border: none;
         height: auto;
         padding: 0;

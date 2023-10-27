@@ -1,6 +1,7 @@
 import React from 'react';
 import { CART } from './Cart';
 import "./Home.css";
+import { Link } from 'react-router-dom';
 
 
 import image1 from "../assets/img/living-room-2732939_1920.jpg";
@@ -18,7 +19,7 @@ export const HOME = () => {
             </div>
             <div className="img-container">
                 <img src={image1} alt="" />
-                <button className='shopBtn cursor'>Shop</button>
+                <Link to='./shop'><button className='shopBtn cursor'>Shop</button></Link>
             </div>
             
         </div>
@@ -47,6 +48,12 @@ export const HOME = () => {
           </div>
           
   
+        </div>
+
+        <div className="selling-products">
+
+        
+
         </div>
 
         <div className="product-by-space col md">
@@ -144,7 +151,7 @@ export const HOME = () => {
 
         <div className="suggest-products col">
 
-          <div><h2>Products we think you love</h2></div> 
+          <div><h2 className='cursor'>Products we think you love</h2></div> 
 
           <div className="suggest-products-container row">
 
@@ -251,7 +258,13 @@ export const HOME = () => {
           <form action="">
            <p><input type="checkbox" name="T&C" id="T&C" />
            &nbsp; 
+           
            I agree to the site's terms & privacy policy</p> 
+           <div className='row'>
+            <input type="text" name="" id="" placeholder='Name'/>
+            <input type="text" name="" id="" placeholder='Gmail' />
+           </div>
+           
            <button>Sign UP</button>
           </form>
           </div>
@@ -267,6 +280,13 @@ export const HOME = () => {
         </div>
 
         <footer>
+          <ul>
+            <li className='cursor'>Terms & conditions</li>
+          </ul>
+          <ul>
+            <li className='cursor'>Privacy Policy</li>
+          </ul>
+          
         <p>
           This is a project built using react.js
         </p>
