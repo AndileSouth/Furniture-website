@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/furniture-website/static/css/main.0f21b0f0.css",
-    "main.js": "/furniture-website/static/js/main.bd4b2cd6.js",
+    "main.js": "/furniture-website/static/js/main.a3c89225.js",
     "static/media/living-room-2732939_1920.jpg": "/furniture-website/static/media/living-room-2732939_1920.50038f0b13534130c6fc.jpg",
     "static/media/room-1336497_1280.jpg": "/furniture-website/static/media/room-1336497_1280.77d8bc96cc4ba890b2ff.jpg",
     "static/media/pexels-max-rahubovskiy-6588592.jpg": "/furniture-website/static/media/pexels-max-rahubovskiy-6588592.8baf672d4412139b92a5.jpg",
     "static/media/pexels-hormel-2762247.jpg": "/furniture-website/static/media/pexels-hormel-2762247.9511320ec228c3db4f64.jpg",
     "index.html": "/furniture-website/index.html",
     "main.0f21b0f0.css.map": "/furniture-website/static/css/main.0f21b0f0.css.map",
-    "main.bd4b2cd6.js.map": "/furniture-website/static/js/main.bd4b2cd6.js.map"
+    "main.a3c89225.js.map": "/furniture-website/static/js/main.a3c89225.js.map"
   },
   "entrypoints": [
     "static/css/main.0f21b0f0.css",
-    "static/js/main.bd4b2cd6.js"
+    "static/js/main.a3c89225.js"
   ]
 }
