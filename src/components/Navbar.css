@@ -152,7 +152,7 @@
 
 @media screen and (max-width:400px) {
     .Navbar {
-        margin: 0 5px;
+        padding: 0 5px;
     }
     .navbar-contents h1 {
         font-size: large;

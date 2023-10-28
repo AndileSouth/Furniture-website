@@ -1,5 +1,6 @@
 .Cart {
     margin-top: 120px;
+    min-height: 70vh;
 }
 .Cart h1 {
     text-align: center;

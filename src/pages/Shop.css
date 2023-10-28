@@ -2,7 +2,7 @@
     margin: 0 10px;
     margin-top: 120px;
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .Shop-content {
@@ -34,7 +34,11 @@
     font-weight: var(--bold);
     padding: 5px 10px;
     border-radius: 10px;
+
+    
 }
+
+
 
 @media screen and (max-width:576px) {
     .product-container {

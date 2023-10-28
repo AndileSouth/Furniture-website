@@ -202,13 +202,16 @@
     max-width: 50vw;
 }
 
-.inspiration button {
+.inspiration a button {
     background-color: var(--Main-text-color);
     color: var(--Main-background-color);
     font-weight: var(--bold);
     border: none;
     height: 30px;
+    width: 100%;
 }
+
+
 
 .newsletter {
     margin-top: 80px;
@@ -259,19 +262,6 @@ hr {
     border: rgb(216, 216, 216) solid 1px;
 }
 
-footer {
-    text-align: center;
-    background-color: var(--secondary-background-color);
-    padding: 20px;
-}
-
-footer ul {
-    text-decoration: none;
-}
-
-footer ul:hover {
-    text-decoration: underline;
-}
 
 @media screen and (max-width:768px) {
     .md {

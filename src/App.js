@@ -5,6 +5,8 @@ import { CART } from './pages/Cart';
 import { NAVBAR } from './components/Navbar';
 import { SHOP } from './pages/Shop';
 import { ShopContextProvider } from './context/ShopContext';
+import { Gallery } from './pages/Gallery';
+import { Footer } from './components/footer';
 
 
 function App() {
@@ -13,10 +15,12 @@ function App() {
       <ShopContextProvider>
       <NAVBAR/>
       <Routes>
-          <Route exact path="/" element={<HOME/>}/>
+          <Route exact path="/Home" element={<HOME/>}/>
           <Route path="/cart" element={<CART/>}/>
           <Route path="/shop" element={<SHOP/>}/>
+          <Route path="/gallery" element={<Gallery/>}/>
         </Routes>
+      <Footer/>
         </ShopContextProvider>
     </div>
   );

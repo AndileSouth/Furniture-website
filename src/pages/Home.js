@@ -15,11 +15,11 @@ export const HOME = () => {
         <div className="hero row">
             
             <div className="promo row">
-            <div className='col'><Link to='./shop'>save up to 50%</Link> </div>
+            <div className='col'><Link to='../shop'>save up to 50%</Link> </div>
             </div>
             <div className="img-container">
-            <Link to='./shop'><img src={image1} alt="" /></Link>
-                <Link to='./shop'><button className='shopBtn cursor'>Shop</button></Link>
+            <Link to='../shop'><img src={image1} alt="" /></Link>
+                <Link to='../shop'><button className='shopBtn cursor'>Shop</button></Link>
             </div>
            
         </div>
@@ -28,22 +28,34 @@ export const HOME = () => {
 
           <div className='cursor'>
             <div className="img-container">
+            <Link to='../shop'>
               <img src={image2} alt="" />
+            </Link>
+            <Link to='../shop'>
               <button className='shopBtn2 cursor'>Sale</button>
+            </Link>
             </div>
           </div>
 
           <div className='cursor'>
             <div className="img-container">
+            <Link to='../shop'>
               <img src={image2} alt="" />
+            </Link>
+            <Link to='../shop'>
               <button className='shopBtn2 cursor'>Bestsellers</button>
+            </Link>
             </div>
           </div>
 
           <div className='cursor'>
             <div className="img-container">
+            <Link to='../shop'>
               <img src={image2} alt="" />
+            </Link>
+            <Link to='../shop'>
               <button className='shopBtn2 cursor'>New In</button>
+            </Link>
             </div>
           </div>
           
@@ -58,29 +70,59 @@ export const HOME = () => {
 
         <div className="product-by-space col md">
 
-        <h2 className='cursor'>Find the product that suites your space</h2>
+        <h2 className='cursor'>
+        <Link to='../shop'>
+          Find the product that suites your space
+        </Link></h2>
+        
 
         <div className="product-by-space-container  row">
 
+       
           <div className="img-container">
+          <Link to='../shop'>
             <img src={image3} alt="" />
-            <button className='shopBtn cursor'>Shop</button>
+          </Link>
+          <Link to='../shop'>
+            <button className='shopBtn cursor'>
+              Shop
+            </button>
+            </Link>
+          </div>
+       
+          <div className="img-container">
+          <Link to='../shop'>
+            <img src={image3} alt="" />
+          </Link>
+          <Link to='../shop'>
+            <button className='shopBtn cursor'>
+              Shop
+            </button>
+            </Link>
+          </div>
+       
+          <div className="img-container">
+          <Link to='../shop'>
+            <img src={image3} alt="" />
+          </Link>
+          <Link to='../shop'>
+            <button className='shopBtn cursor'>
+              Shop
+            </button>
+            </Link>
+          </div>
+       
+          <div className="img-container">
+          <Link to='../shop'>
+            <img src={image3} alt="" />
+          </Link>
+          <Link to='../shop'>
+            <button className='shopBtn cursor'>
+              Shop
+            </button>
+            </Link>
           </div>
 
-          <div className="img-container">
-            <img src={image3} alt="" />
-            <button className='shopBtn cursor'>Shop</button>
-          </div>
-
-          <div className="img-container">
-            <img src={image3} alt="" />
-            <button className='shopBtn cursor'>Shop</button>
-          </div>
-
-          <div className="img-container">
-            <img src={image3} alt="" />
-            <button className='shopBtn cursor'>Shop</button>
-          </div>
 
         </div>
           
@@ -151,25 +193,41 @@ export const HOME = () => {
 
         <div className="suggest-products col">
 
-          <div><h2 className='cursor'>Products we think you love</h2></div> 
+          <div><h2 className='cursor'>
+          <Link to='../shop'>
+            Products we think you love
+          </Link>  </h2></div> 
 
           <div className="suggest-products-container row">
 
           <div className="img-container">
+            
+          <Link to='../shop'>
             <img src={image2} alt="" />
+          </Link>  
           </div>
 
           <div className="img-container">
+            
+          <Link to='../shop'>
             <img src={image2} alt="" />
+          </Link>  
           </div>
 
           <div className="img-container">
+            
+          <Link to='../shop'>
             <img src={image2} alt="" />
+          </Link>  
           </div>
 
           <div className="img-container">
+            
+          <Link to='../shop'>
             <img src={image2} alt="" />
+          </Link>  
           </div>
+
 
           </div>
           
@@ -234,7 +292,7 @@ export const HOME = () => {
 
           </div>
 
-          <button>Design resources</button>
+          <Link to='../gallery'><button>Design resources</button></Link>
 
           </div>
 
@@ -279,19 +337,7 @@ export const HOME = () => {
           <p>Follow Us: @FurnitureStore</p>
         </div>
 
-        <footer>
-          <ul>
-            <li className='cursor'>Terms & conditions</li>
-          </ul>
-          <ul>
-            <li className='cursor'>Privacy Policy</li>
-          </ul>
-          
-        <p>
-          This is a project built using react.js
-        </p>
-
-        </footer>
+    
 
     </div>
   )

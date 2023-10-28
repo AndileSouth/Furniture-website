@@ -15,21 +15,21 @@ export const PRODUCTS = [
     
     {
         id:1,
-        productName: "IPhone",
+        productName: "Couch",
         price: 999.0,
         productImage: product1,
     },
 
     {
         id:2,
-        productName: "Shoe",
+        productName: "Sofa",
         price: 999.0,
         productImage: product2,
     },
 
     {
         id:3,
-        productName: "Jacket",
+        productName: "Chair",
         price: 999.0,
         productImage: product3,
     },
