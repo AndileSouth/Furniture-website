@@ -65,6 +65,7 @@ link,a {
   display: flex;
   flex-direction: column;
   padding-bottom: 120px;
+  min-height: 100vh;
 }
 
 .Navbar {

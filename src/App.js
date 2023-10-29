@@ -12,11 +12,11 @@ import { Footer } from './components/footer';
 function App() {
   return (
     <div className="App">
-      hello
+      
       <ShopContextProvider>
       <NAVBAR/>
       <Routes>
-          <Route exact path="/Home" element={<HOME/>}/>
+          <Route exact path="/Furniture-website" element={<HOME/>}/>
           <Route path="/cart" element={<CART/>}/>
           <Route path="/shop" element={<SHOP/>}/>
           <Route path="/gallery" element={<Gallery/>}/>

@@ -23,7 +23,7 @@ export const NAVBAR = () => {
         </div>
 
         <div className='section2'>
-           <Link to="./Home"><h1>Furniter Store</h1></Link> 
+           <Link to="./Furniture-website"><h1>Furniter Store</h1></Link> 
         </div>
 
         <ul className='row section3'>
